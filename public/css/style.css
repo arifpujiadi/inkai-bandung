@@ -1,0 +1,1461 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2015, 2:42:01 PM
+    Author     : Arif
+*/
+
+
+/* Font */
+/* ================================================== */
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../fonts/SourceSansProSemibold/source-sans-pro.semibold.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: MissionScript-Regular;
+    src: url(../fonts/MissionScript/Mission-Script.otf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Bold;
+    src: url(../fonts/Oswald/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Light;
+    src: url(../fonts/Oswald/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: Humnst777CnBT;
+    src: url(../fonts/Humnst777CnBT/Humnst777CnBT.ttf);
+}
+
+@font-face {
+    font-family: Humnst777CnBT-Bold;
+    src: url(../fonts/Humnst777CnBT/Humnst777CnBT-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cambria;
+    src: url(../fonts/Cambria/Cambria.ttf);
+}
+
+@font-face {
+    font-family: Cambria-Italic;
+    src: url(../fonts/Cambria/cambriai.ttf);
+}
+
+@font-face {
+    font-family: Cambria-Bold;
+    src: url(../fonts/Cambria/cambriab.ttf);
+}
+
+@font-face {
+    font-family: Voyage;
+    src: url(../fonts/Voyage/VoyageRegular.otf);
+}
+
+@font-face {
+    font-family: Voyage-Bold;
+    src: url(../fonts/Voyage/VoyageBold.otf);
+}
+
+@font-face {
+    font-family: Roboboto;
+    src: url(../fonts/Roboboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboboto-Bold;
+    src: url(../fonts/Roboboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(../fonts/RobotoCondensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url(../fonts/RobotoCondensed/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url(../fonts/RobotoCondensed/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: Rufina;
+    src: url(../fonts/Rufina/Rufina-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rufina-Bold;
+    src: url(../fonts/Rufina/Rufina-Bold.ttf);
+}
+
+@font-face {
+    font-family: California-Regular;
+    src: url(../fonts/CalifornianFB/Californian_FB.ttf);
+}
+
+@font-face {
+    font-family: California-Bold;
+    src: url(../fonts/CalifornianFB/californian-fb-bold.ttf);
+}
+
+@font-face {
+    font-family: Mistral-Regular;
+    src: url(../fonts/Mistral/MISTRAL.TTF);
+}
+
+@font-face {
+    font-family: Exo2-SemiBold;
+    src: url(../fonts/Exo2/Exo2-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(../fonts/Lato/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Hairline;
+    src: url(../fonts/Lato/Lato-Hairline.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Arial-Regular;
+    src: url(../fonts/Arial/arial.ttf);
+}
+
+@font-face {
+    font-family: Hero-Regular;
+    src: url(../fonts/Hero/Hero.otf);
+}
+
+@font-face {
+    font-family: Japan-Regular;
+    src: url(../fonts/Japan/Hero-Regular.ttf);
+}
+
+.font-Japan{
+    font-family: Japan-Regular;
+}
+
+.font-Hero{
+    font-family: Hero-Regular;
+}
+
+.font-Arial{
+    font-family: Arial-Regular;
+}
+
+.font-PoppinsSemiBold{
+    font-family: Poppins-SemiBold;
+}
+
+.font-PoppinsLight{
+    font-family: Poppins-Light;
+}
+
+.font-LatoBlack{
+    font-family: Lato-Black;
+}
+
+.font-LatoLight{
+    font-family: Lato-Light;
+}
+
+.font-LatoHairline{
+    font-family: Lato-Hairline;
+}
+
+.font-LatoBold{
+    font-family: Lato-Bold;
+}
+
+.font-LatoLightItalic{
+    font-family: Lato-LightItalic;
+}
+
+.font-Exo2SemiBold{
+    font-family: Exo2-SemiBold !important;
+}
+
+.font-Mistral{
+    font-family: Mistral-Regular;
+}
+
+.font-California{
+    font-family: California-Regular;
+}
+
+.font-CaliforniaBold{
+    font-family: California-Bold;
+}
+
+.font-sourceSansPro{
+    font-family: SourceSansPro-Regular;
+}
+
+.font-sourceSansProBold{
+    font-family: SourceSansPro-Bold;
+}
+
+.font-sourceSansProSemibold{
+    font-family: SourceSansPro-Semibold;
+}
+
+.font-missionScript{
+    font-family: MissionScript-Regular;
+}
+
+.font-openSans{
+    font-family: OpenSans-Regular;
+}
+
+.font-openSansBold{
+    font-family: OpenSans-Bold;
+}
+
+.font-oswald{
+    font-family: Oswald-Regular;
+}
+
+.font-oswaldBold{
+    font-family: Oswald-Bold;
+}
+
+.font-oswaldLight{
+    font-family: Oswald-Light;
+}
+
+.font-Humnst777CnBT{
+    font-family: Humnst777CnBT;
+}
+.font-Humnst777CnBT-Bold{
+    font-family: Humnst777CnBT-Bold;
+}
+
+.font-Cambria-Italic{
+    font-family: Cambria-Italic;
+}
+
+.font-Cambria{
+    font-family: Cambria;
+}
+
+.font-Cambria-Bold{
+    font-family: Cambria-Bold;
+}
+
+.font-Voyage{
+    font-family: Voyage;
+}
+
+.font-Voyage-Bold{
+    font-family: Voyage-Bold;
+}
+
+.font-Roboboto{
+    font-family: Roboboto;
+}
+
+.font-Roboboto-Bold{
+    font-family: Roboboto-Bold;
+}
+
+.font-Roboto-Light{
+    font-family: Roboto-Light;
+}
+
+.font-Roboto-Medium{
+    font-family: Roboto-Medium;
+}
+
+.font-RobotoCondensed{
+    font-family: RobotoCondensed;
+}
+
+.font-RobotoCondensed-Bold{
+    font-family: RobotoCondensed-Bold;
+}
+
+.font-RobotoCondensed-Light{
+    font-family: RobotoCondensed-Light;
+}
+
+.font-Montserrat{
+    font-family: Montserrat;
+}
+
+.font-Montserrat-Bold{
+    font-family: Montserrat-Bold;
+}
+
+.font-Rufina{
+    font-family: Rufina;
+}
+
+.font-RufinaBold{
+    font-family: Rufina-Bold;
+}
+
+
+
+
+/* Custom Width */
+/* ================================================== */
+
+.persen5{
+    width: 5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen10{
+    width: 10%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen12{
+    width: 12%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen15{
+    width: 15%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen20{
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen22{
+    width: 22%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen25{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen27{
+    width: 27%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen29-5{
+    width: 29.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen30{
+    width: 30%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen33{
+    width: 33%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen35{
+    width: 35%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen40{
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen45{
+    width: 45%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen55{
+    width: 55%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen65{
+    width: 65%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen60{
+    width: 60%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+.persen70{
+    width: 70%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen73{
+    width: 73%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen70-5{
+    width: 70.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen75{
+    width: 75%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen78{
+    width: 78%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen80{
+    width: 80%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen85{
+    width: 85%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen90{
+    width: 90%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.persen95{
+    width: 95%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+
+
+/* Tools */
+/* ================================================== */
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0 !important;
+}
+
+a, a:visited, a:focus, a:active, :visited, :focus, :active, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 0 !important; }
+
+.center{
+    text-align: center;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.inherit{
+    height: inherit;
+}
+
+.white{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: solid 2px white;
+}
+
+.red{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid red;
+}
+
+.yellow{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid yellow;
+}
+
+.green{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid green;
+}
+
+.blue{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid blue;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-black{
+    color: black;
+}
+
+.fit-screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -moz-box;
+    display: flex;
+
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body-color{
+    //background-color: #F0F0F0;
+}
+
+.background-header{
+    background-color: #B56E99;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    /*background-image: url('../../img/icon/content-background.png');*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax-2 {
+    /* The image used */
+    /*background-image: url('../../img/icon/content-background.png');*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover !important;
+
+}
+
+
+
+
+
+
+
+
+
+/* Header */
+/* ================================================== */
+.navbar-form input, .form-inline input {
+    width:auto;
+}
+
+#header-top {
+    height:500px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 10px;
+}
+
+.header-brand{
+    color: white !important;
+    font-size: 14px;
+}
+
+.edit-navbar{
+    background: #333333 !important;
+    height: 70px;
+    //padding-left: 10%;
+    border-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.edit-toggle{
+    float:left;
+}
+
+.edit-navbarNav{
+    float: right;
+    margin-top: 10px;
+}
+
+.header-logo{
+    height: 45px;
+}
+
+.boxOut-headerText{
+    color: white;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.offcanvas-toggle, .offcanvas-toggle:focus, .offcanvas-toggle:hover {
+    background: transparent !important;
+}
+
+.sideMenu-li{
+    text-align: center;
+}
+
+.sideMenu-li a{
+    height: 70px;
+    color: white;
+    font-size: 16px;
+    padding: 20px 0px 10px 0px !important;
+    transition: all 0.1s linear 0s;
+}
+
+.sideMenu-li a:hover, .sideMenu-li a:focus {
+    background-color: transparent !important;
+    border-bottom: 5px solid #c71212;;
+    color: white;
+    transition: all 0.1s linear 0s;
+}
+
+.edit-nav-header{
+    padding-left: 130px;
+    max-width: 700px;
+}
+
+#nprogress .bar{
+    background: #c71212;
+}
+
+.modal-login{
+    padding-right: 0px !important;
+}
+
+.modal-login > .modal-dialog {
+    width: 745px;
+    background-image: url('../img/wallpaper/1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.editModalLogin-content{
+    background-color: rgba(51, 51, 51, 0.8);
+    border: none;
+    padding-bottom: 50px;
+}
+
+.editModalLogin-header{
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+.editModalLogin-header > .close {
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.8;
+}
+
+.modal-logo img{
+    height: 80px;
+}
+
+.modal-keteranganLogin{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxOut-loginEmail{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.field-modalLogin {
+    height:40px;
+    border-radius: 0px;
+    padding: 0px 15px;
+    background-color: transparent;
+    border: 1px solid white !important;
+    border-radius: 30px;
+    box-shadow: none;
+    color: white;
+    font-size: 14px;
+    transition: all 0.3s linear 0s;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.field-modalLogin:focus{
+    border: 1px solid #c7b278 !important;
+    box-shadow: none;
+    transition: all 0.3s linear 0s;
+}
+
+.field-modalLogin::-webkit-input-placeholder { color: white !important; font-size: 14px; }
+.field-modalLogin:-moz-placeholder { color: white !important; font-size: 14px; }
+.field-modalLogin::-moz-placeholder { color: white !important; font-size: 14px; }
+.field-modalLogin:-ms-input-placeholder { color: white !important; font-size: 14px; }
+
+.button-modalLogin{
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+    background-color: #d10b11;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    float: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px #d10b11;
+    position: relative;
+
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    transition: all 0.25s linear 0s;
+
+}
+
+.button-modalLogin:hover, .button-modalLogin:focus{
+    background-color: #ad080d !important;
+    transition: all 0.25s linear 0s;
+    box-shadow: 0px 0px 5px #ad080d;
+}
+
+.boxOut-lupaPassword{
+    padding-top: 30px;
+}
+
+.boxOut-lupaPassword a{
+    color: white;
+    transition: all 0.25s linear 0s;
+    font-size: 13px;
+}
+
+.boxOut-lupaPassword a:hover{
+    color: #c7b278;
+    transition: all 0.25s linear 0s;
+}
+
+.box-email{
+    display: none;
+}
+
+.box-buttonReset{
+    display: none;
+}
+
+.box-login{
+    display: none;
+}
+
+.edit-nav-header{
+    padding-left: 0px;
+}
+
+.box-buttonReset .button-modalLogin{
+    margin-top: 90px;
+}
+
+.sideMenu-li > .dropdown-toggle {
+    background-image: url('../img/icon/arrowBottom-white.png');
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+    background-position: right 10px top 28px;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent !important;
+    border-color: #c0392b;
+}
+
+.dropdown-menu-edit {
+    min-width: 160px;
+    padding: 0px 0px 0px 0px;
+    margin: -1px 0px 0px 0px;
+
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #333333;
+}
+
+.dropdown-menu-edit a{
+    color: white !important;
+    font-size: 12px;
+
+    height: inherit;
+    color: white;
+    padding: 15px 10px 15px 10px !important;
+    border: none;
+}
+
+.dropdown-menu-edit a:hover{
+    border: none;
+    color: #c71212 !important;
+}
+
+
+
+
+/* Content */
+/* ================================================== */
+
+.backgroundGreyContent{
+    background-color: #F6F6F6;
+}
+
+
+
+/* Footer */
+/* ================================================== */
+
+.footer-copyright{
+    color: white;
+    font-size: 12px;
+    padding: 20px 20px;
+}
+
+.row.brownFooter{
+    background-color: #151515;
+    border-top: 5px solid #777777;
+}
+
+.box-footerMiddle{
+    background-color: #383838;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-footerMiddle a{
+    color: white;
+    font-size: 12px;
+    transition: all 0.25s linear 0s;
+}
+
+.box-footerMiddle a:hover{
+    color: #7f8c8d;
+    transition: all 0.25s linear 0s;
+}
+
+.footer-title{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.footer-title-right{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+    //text-align: right;
+}
+
+.box-footerAlamat{
+    padding-left: 30px;
+    background-image: url('../img/icon/footer-map.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 45%;
+    background-size: 10px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box-footerEmail{
+    padding-left: 30px;
+    background-image: url('../img/icon/footer-email.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 45%;
+    background-size: 12px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box-footerTelp{
+    padding-left: 30px;
+    background-image: url('../img/icon/footer-contact.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 45%;
+    background-size: 10px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.footer-circle{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    //border-radius: 100%;
+    text-align: center;
+    //padding-top: 10.5px;
+    padding-top: 8px;
+    transition: all 0.25s linear 0s;
+}
+
+.footer-social{
+    padding-right: 20px;
+}
+
+.footer-social .box-social{
+    /*    width: 45px !important;
+        height: 45px !important;*/
+    //width: 35px !important;
+    //height: 35px !important;
+    margin-right: 30px;
+    margin-top: 5px;
+    float: left;
+
+}
+
+.footer-social img{
+    transition: all 0.25s linear 0s;
+}
+
+.footer-social img:hover{
+    transform: scale(1.2);
+    transition: all 0.25s linear 0s;
+}
+
+
+
+.img-facebook {
+    //width: 7px;
+    height: 15px;
+}
+
+.img-twitter{
+    //width: 16px;
+    height: 15px;
+}
+
+.img-instagram{
+    //width: 15px;
+    height: 15px;
+}
+
+.img-youtube{
+    //width: 18px;
+    height: 15px;
+}
+
+.footer-circle-socialImg{
+    height: 13px;
+}
+
+
+.footerSocial-text{
+    text-align: right;
+    color: #0D84BB;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.footer-linkTitle{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.footer-linkTerkait{
+
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.footer-linkTerkait a{
+    margin-right: 20px;
+    color: #373435;
+    font-size: 12px;
+}
+
+.footer-linkTerkait a:hover{
+    color: #6E6B6C;
+}
+
+.boxOut-linkTerkait{
+    margin-top: 20px;
+}
+
+.boxOut-linkTerkait a{
+    margin-right: 15px;
+}
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .edit-navbar {
+        height: 50px;
+    }
+
+    .header-logo {
+        height: 30px;
+    }
+
+    .boxOut-headerText {
+        padding-top: 3px;
+    }
+
+    .sideMenu-li a {
+        height: 50px;
+        font-size: 14px;
+        padding: 15px 0px 10px 0px !important;
+    }
+
+    .edit-nav-header {
+        max-width: 600px;
+    }
+
+
+    .modal-keteranganLogin {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .modal-keteranganLogin {
+        font-size: 16px;
+    }
+
+    .field-modalLogin {
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .field-modalLogin::-webkit-input-placeholder { font-size: 13px; }
+    .field-modalLogin:-moz-placeholder { font-size: 13px; }
+    .field-modalLogin::-moz-placeholder { font-size: 13px; }
+    .field-modalLogin:-ms-input-placeholder { font-size: 13px; }
+
+
+
+
+    .footer-social .box-social {
+        /*        width: 25px !important;
+                height: 25px !important;
+                margin-left: 10px;*/
+    }
+
+    .img-facebook{
+        height: 15px;
+    }
+
+    .img-twitter{
+        height: 15px;
+    }
+
+    .img-instagram{
+        height: 15px;
+    }
+
+    .img-youtube{
+        height: 15px;
+    }
+
+    .footer-circle-socialImg{
+        height: 9px;
+    }
+
+    .footer-circle {
+        padding-top: 4px;
+    }
+
+    .footer-social {
+        padding-left: 20px;
+    }
+
+    .boxOut-socialTitle {
+        padding-left: 0px;
+        font-size: 11.5px;
+    }
+
+    .footer-social {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .box-footerMiddle a {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    /* Header */
+    /* ================================================== */
+    .edit-nav-header{
+        padding-left: 0px;
+    }
+
+    .boxOut-headerText {
+        //padding-left: 20px;
+    }
+
+
+    /* Footer */
+    /* ================================================== */
+
+
+}
+
+@media (max-width:767px) {
+
+
+
+    /* Header */
+    /* ================================================== */
+    .boxOut-headerText{
+        text-align: center;
+    }
+
+    .edit-navbar{
+        height: inherit;
+        //height: 70px;
+    }
+
+    .edit-navbarNav{
+        float: left;
+    }
+
+    .navbar-nav {
+        margin: 0px 0px;
+    }
+
+    .navbar-offcanvas {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-default .navbar-offcanvas {
+        background-image: none;
+        background-color: #f0f0f0;
+    }
+
+    .boxOut-sideMenu{
+        height: 130px;
+        background-color: #333333;
+        padding: 20px;
+    }
+
+    .boxOut-sideMenu img{
+        height: 100%;
+    }
+
+    .boxOut-titleMenu{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 15px;
+    }
+
+    .box-titleMenu{
+        border-bottom: 2px solid #c71212;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333333;
+    }
+
+    .header-navbar-li {
+        font-size: 13px;
+    }
+
+    .header-navbar-li > a {
+        font-weight: normal;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+    .sideMenu-li{
+        text-align: left;
+        color: black;
+    }
+
+    .sideMenu-li a {
+        height: inherit;
+        color: black;
+        font-size: 14px;
+        padding: 10px 15px 10px 15px !important;
+    }
+
+    .sideMenu-li a:hover, .sideMenu-li a:focus {
+        background-color: transparent !important;
+        border-bottom: none;
+        color: #c71212;
+    }
+
+    .modal-dialog {
+        margin: 20px;
+    }
+
+    .modal-login > .modal-dialog {
+        width: auto;
+    }
+
+    .boxOut-loginEmail{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .boxOut-headerText{
+        text-align: left;
+    }
+
+    .boxOut-headerText {
+        padding-left: 20px;
+    }
+
+
+
+
+
+
+
+    /* Footer */
+    /* ================================================== */
+
+    .box-footerMiddle {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-title-right {
+        padding-top: 20px;
+    }
+
+    .boxOut-linkTerkait {
+        margin-top: 0px;
+    }
+
+    .footer-social {
+        padding-left: 0px;
+    }
+
+    .footer-social .box-social {
+        margin-left: 0px;
+    }
+
+    .footer-title {
+        font-size: 14px;
+    }
+
+    .footer-title-right {
+        font-size: 14px;
+    }
+
+}

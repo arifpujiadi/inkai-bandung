@@ -1,0 +1,249 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 2:40:08 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: #F4F5F6;
+}
+
+.container-margin{
+    margin-top: 70px;
+    background-color: white;
+    padding: 30px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-titleContent{
+    font-size: 18px;
+    //padding-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c7b278;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.boxOut-fotoNews{
+    margin-bottom: 40px;
+}
+
+.box-fotoNews{
+    width: 50%;
+    float: none;
+}
+
+.box-fotoNews img{
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #bdc3c7;
+}
+
+.boxOut-textNews{
+    //margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.boxOut-textNews p{
+    margin-bottom: 20px;
+}
+
+.boxOut-waktu{
+    color: #6C7A89;
+    font-size: 11px;
+    margin-bottom: 40px;
+}
+
+.button-kembali{
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    background-color: #d10b11;
+    color: white !important;
+    font-size: 13px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    float: none;
+    position: relative;
+
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    transition: all 0.25s linear 0s;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.button-kembali:hover, .button-kembali:focus{
+    background-color: #ad080d !important;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-titleModalBottom{
+    border-left: 4px solid #c71212;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boxOut-kategori{
+    text-align: right;
+}
+
+
+
+/* Modal - Gallery*/
+/* ================================================== */
+
+.editModal-contentGallery{
+    padding: 0px 20px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.rg-image-wrapper {
+    background-color: black;
+}
+
+.es-carousel-wrapper {
+    border-radius: 0px;
+}
+
+.rg-image-wrapper {
+    border-radius: 0px;
+}
+
+.rg-image-nav a {
+    background-color: #101010;
+    opacity: 1;
+}
+
+.modal-marginGallery{
+    margin-top: 5%;
+}
+
+.rg-view{
+    display: none;
+}
+
+.rg-thumbs{
+
+}
+
+
+.kategori-1 {
+    background-color: #16a085;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+.kategori-2 {
+    background-color: #c0392b;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+.kategori-3 {
+    background-color: #2980b9;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    float: right;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-margin {
+        margin-top: 50px;
+    }
+
+    .boxOut-titleContent {
+        font-size: 16px;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3 {
+        padding: 4px 10px;
+        width: 100px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .container-margin{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        margin-top: 106px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .boxOut-kategori{
+        text-align: left;
+    }
+
+    .box-fotoNews{
+        width: 85%;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3 {
+        float: left;
+        margin-top: 15px;
+    }
+
+    .container-margin {
+        margin-top: 50px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .boxOut-titleContent {
+        text-align: inherit;
+    }
+
+}

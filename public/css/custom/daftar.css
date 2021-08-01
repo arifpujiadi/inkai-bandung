@@ -1,0 +1,334 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 2:40:08 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: white;
+}
+
+.container-margin{
+    margin-top: 70px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-titleContent{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: #16365c;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boxOut-titleContent-2{
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.boxOut-padding{
+    padding-right: 20px;
+}
+
+.border-member{
+    border-top: 5px solid #c7b278;
+    width: 200px;
+    float: none;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; top: 2px;
+    width: 13px; height: 13px;
+    border: 1px solid #aaa;
+    /*  background: #f8f8f8;*/
+    border-radius: 3px;
+    margin-top: 4px;
+    /*  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)*/
+    margin-left: 5px;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    top: 5px; left: 4px;
+    font-size: 16px;
+    line-height: 0.8;
+    color: #C02026;
+    transition: all .2s;
+    margin-left: 2px;
+
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+[type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+    border: 1px solid #4778d9!important;
+}
+
+.label-inputPrimary{
+    color: #16365c;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+
+
+
+.table td{
+    border:1px solid white;
+    color: #332C2B;
+    text-align: left;
+    height: 30px;
+    font-weight: bold;
+}
+
+.table-fontUp{
+    font-size: 7px; 
+    float: none; 
+    margin-top: -18px; 
+    margin-left: 11px;
+}
+
+.title-right{
+    font-size: 11px;
+    font-weight: bold;
+    height: 65px;
+    text-align: center;
+    padding-top: 25px !important;
+}
+
+.boxOut-gashukuUjian{
+    text-align: center;
+}
+
+
+/* hover style just for information 
+.title-table{
+    background-color: #A1D9F6;
+}
+
+.blue-tableTr{
+    background-color: #E0FBFF;
+}
+
+.grey-tableTr{
+    background-color: #D4F3F7;
+}
+
+*/
+
+
+
+
+.table .field-primary, .table .field-primary:focus{
+    height:30px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: #FEFEFE;
+    border: 2px solid #B6B6B7;
+    box-shadow: none;
+    color: #757475;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.dropdown-headerSelectLeft, .dropdown-headerSelectLeft:focus{
+    width: 140px;
+    height:30px;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    background-color: white;
+    border: 1px solid #EEEEEF;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+
+    border: 2px solid #B6B6B7;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/whiteBackground-arrowBottom.png') no-repeat;
+    background-position: 103% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    float: left;
+    //margin-right: 30px;
+
+    font-weight: normal;
+}
+
+.dropdown-headerSelectRight, .dropdown-headerSelectRight:focus{
+    width: 140px;
+    height:30px;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    background-color: white;
+    border: 1px solid #EEEEEF;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+
+    border: 2px solid #0D9CD4;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/whiteBackground-arrowBottom.png') no-repeat;
+    background-position: 103% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    float: left;
+}
+
+.table-primary{
+    border-bottom: 5px solid #c7b278;
+    margin-bottom: 50px;
+}
+
+.boxOut-primaryTop{
+    padding-right: 50%;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-margin {
+        margin-top: 50px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .container-margin{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-titleContent-2{
+        font-size: 17px;
+    }
+
+    .boxOut-sumpahText{
+        font-size: 12px;
+    }
+
+    .boxOut-marsText{
+        font-size: 12px;
+    }
+
+    .boxOut-primaryTop{
+        padding-right: 0%;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        //margin-top: 106px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 20px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .boxOut-tentang{
+        font-size: 13px;
+    }
+
+
+    .boxOut-marsText {
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .boxOut-sumpahText {
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .boxOut-paralax{
+        background-image:  url('../../img/icon/about3.jpg');
+        background-position: center;
+    }
+
+    .boxOut-gashukuUjian{
+        text-align: left;
+    }
+
+}

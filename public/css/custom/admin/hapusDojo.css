@@ -1,0 +1,349 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 11:04:42 AM
+    Author     : Arif
+*/
+
+.boxOut-contentPage{
+    background-color: #E4F4FD;
+    margin-top: 30px;
+    // padding: 30px 50px;
+    border-left: 3px solid #1A64B8;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+
+.box-listDojo{
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.a-ubah{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    min-height: 1px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+
+    z-index: 2;
+    transition-duration: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.boxOut-dojo{
+    //height: 150px;
+    //border: 1px solid #D9DEE4;
+    background-color: white;
+}
+
+.boxOut-dojo a{
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.boxOut-dojo a:hover{
+    background-color: #c0392b;
+    transition-duration: 0.4s;
+}
+.boxOut-dojo:hover a{
+    background-color: #c0392b;
+    transition-duration: 0.4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.fotoDojo{
+    height: 155px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-right: 1px solid #D9DEE4;
+}
+
+.triangle-number{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: #D9DEE4 transparent transparent transparent;
+
+
+}
+
+.number{
+    width: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 2px;
+    //color: #4D4D4D;
+    color: white;
+}
+
+.box-keteranganDojo{
+    padding: 15px 15px 5px 15px;
+}
+
+.namaDojo{
+    font-size: 16px;
+    color: #4D4D4D;
+    padding-top: 5px;
+    max-height: 55px;
+    overflow: hidden;
+}
+
+.keteranganDojo{
+    font-size: 14px;
+    color: #4D4D4D;
+    padding-top: 20px;
+    max-height: 62px;
+    overflow: hidden;
+}
+
+.modal-login > .modal-dialog {
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    margin-top: 15%;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+
+.editModal-content{
+    border-radius: 0px;
+    padding: 30px 20px 30px 20px;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.modal-textContent{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.button-batal{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-batal:hover, .button-batal:focus{
+    transition: all 0.25s linear 0s;
+
+    background-color: #c0392b;
+}
+
+.button-ya{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-ya:hover, .button-ya:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.modal-centerButton{
+    width: 215px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+}
+
+.modal-margin{
+    margin-left: 0px;
+}
+
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-md, .nav-sm{
+    padding-right: 0px !important;
+}
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-contentPage {
+        margin-top: 20px;
+    }
+
+    .fotoDojo {
+        height: 90px;
+    }
+
+    .triangle-number {
+        border-width: 35px 35px 0 0;
+    }
+
+    .number {
+        width: 20px;
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .box-listDojo {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-contentPage {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .box-keteranganDojo {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .namaDojo {
+        font-size: 12px;
+        max-height: 40px;
+    }
+
+    .keteranganDojo {
+        font-size: 10px;
+        padding-top: 5px;
+        max-height: 35px;
+    }
+
+    .a-ubah {
+        font-size: 20px;
+        padding-top: 28px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .modal-textContent {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .button-batal {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .button-ya {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .modal-centerButton{
+        width: 175px;
+    }
+
+    .sukses{
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .modal-login > .modal-dialog {
+        margin-top: 45%;
+    }
+
+    .namaDojo {
+        font-size: 10px;
+        max-height: 35px;
+    }
+
+    .keteranganDojo {
+        font-size: 8px;
+        padding-top: 10px;
+        max-height: 30px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    .fotoDojo {
+        height: 130px;
+    }
+
+    .box-keteranganDojo {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .namaDojo {
+        font-size: 14px;
+        max-height: none;
+    }
+
+    .keteranganDojo {
+        font-size: 12px;
+        padding-top: 5px;
+        max-height: 40px;
+    }
+
+    .a-ubah {
+        padding-top: 90px;
+    }
+
+    .modal-textContent {
+        font-size: 14px;
+    }
+
+
+
+}

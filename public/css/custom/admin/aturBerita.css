@@ -1,0 +1,967 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 11:04:42 AM
+    Author     : Arif
+*/
+
+.boxOut-contentPage{
+    //background-color: #E4F4FD;
+    background-color: white;
+    margin-top: 30px;
+    // padding: 30px 50px;
+    border-left: 3px solid #1A64B8;
+    padding: 30px;
+}
+
+.modal-login > .modal-dialog {
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    margin-top: 15%;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+
+.editModal-content{
+    border-radius: 0px;
+    padding: 30px 20px 30px 20px;
+}
+
+.modal-margin{
+    margin-left: 0px;
+}
+
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-bulk-actions{
+    height: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.antoo{
+    color: white !important;
+    font-weight: normal;
+}
+
+.odd.pointer, .even.pointer{
+    border: 1px solid transparent;
+}
+
+.jambo_table {
+    border: none;
+    margin: 0px;
+}
+
+.edit-tableBerita{
+    //border: 1px solid rgba(221, 221, 221, 0.78) !important;
+    color: #4D4D4D;
+}
+
+.box-aksi a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-size: 10px;
+    color: #4D4D4D;
+}
+
+.box-aksi img{
+    height: 13px;
+    margin-bottom: 3px;
+}
+
+.box-aksi a:hover{
+    color: #1abc9c;
+}
+
+.edit-tableBerita{
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.column-title-1{
+    width: 150px !important;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.column-title-3{
+    width: 120px !important;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.column-1{
+    width: 150px !important;
+}
+
+.column-3{
+    width: 120px !important;
+}
+
+.box-judul{
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+.editModalLogin-header > .close {
+    color: #4D4D4D;
+}
+
+.modal-lihatBerita{
+    //padding: 0px;
+    color: #4D4D4D;
+    padding-bottom: 40px;
+}
+
+.boxOut-imgBerita{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+    margin-bottom: 40px;
+}
+
+.box-modalJudulBerita{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c7b278;
+    padding-bottom: 5px;
+}
+
+.box-modalWaktuBerita{
+    font-size: 11px;
+    color: #6C7A89;
+    margin-bottom: 40px;
+}
+
+.box-modalIsiBerita{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.box-modalFileBerita{
+    border-left: 4px solid #c71212;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.boxOut-listField{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.boxOut-thumbail{
+    height: 205px;
+    overflow: hidden;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #1A64B8;
+    border: 0;
+    width: 90px;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 4px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #4D4D4D !important;
+}
+
+.btn-file-2{
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+}
+
+.width-nameFile{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.width-fileButton{
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.input-fieldKomfirmasi{
+    height: 40px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: 1px solid #95a5a6 !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+    float: left;
+}
+
+.input-logo{
+    width: 40px;
+    height: 40px;
+    background-color: #95a5a6;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.input-html{
+    background-size: 19px 13px;
+}
+
+.input-img{
+    background-size: auto 20px;
+}
+
+.boxOut-lampir-file{
+    margin-top: 5px;
+}
+
+.boxOut-nameFile .input-group {
+    margin-bottom: 0px;
+}
+
+.img-dokumen{
+    background-image: url('../../../img/icon/unduhBerkas.png');
+}
+
+.img-link{
+    background-image: url('../../../img/icon/link-icon.png');
+}
+
+.editTextArea, .editTextArea:focus{
+    display: block;
+    width: 100%;
+    height: 200px !important;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #95a5a6;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    border-radius: 5px;
+    outline: none;
+
+    resize: none;
+}
+
+.editTextArea::-webkit-input-placeholder { color: #A9ABAE !important; }
+.editTextArea:-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea::-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea:-ms-input-placeholder { color: #A9ABAE !important; }
+
+.deleteKontak, .deletePelatih, .deleteJadwal{
+    cursor: pointer;
+    height: 35px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.deleteKontak > img, .deletePelatih > img, .deleteJadwal > img{
+    width: 100%;
+    margin-top: 12px;
+    //height: 3px;
+    max-width: 15px;
+}
+
+.tambah-jadwal{
+    margin-top: 10px;
+}
+
+.button-lengkap{
+    width: 20px;
+    height: 20px;
+    background-color: #34495e;
+    font-size: 14px;
+    border-radius: 100%;
+    padding: 0px;
+    text-align: center;
+    float: left;
+    position: relative;
+    transition: all 0.25s linear 0s;
+    margin: 0px;
+    margin-right: 5px;
+
+}
+
+.a-field, .a-jadwal, .a-dokumen, .a-kontak{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.a-field:hover .button-lengkap, .a-jadwal:hover .button-lengkap, .a-dokumen:hover .button-lengkap, .a-kontak:hover .button-lengkap {
+    background-color: #d35400 !important;
+    transition: all 0.25s linear 0s;
+}
+
+
+
+.button-lengkap img{
+    height: 10px;
+    margin-top: -2px;
+}
+
+
+
+
+.button-send{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-send:hover, .button-send:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.box-buttonSave{
+    width: 120px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+.modal-login > .modal-dialog {
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    margin-top: 15%;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+
+.editModal-content{
+    border-radius: 0px;
+    padding: 30px 20px 30px 20px;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.modal-textContent{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.button-hapus{
+    margin: 0px;
+    background-color: #c0392b;
+    color: white;
+    width: 80px;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: left;
+    //margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+    margin-left: 63px;
+}
+
+.button-hapus:hover{
+
+    background-color: #e74c3c;
+}
+
+.button-hapus img{
+    height: 13px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.button-batal{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-batal:hover, .button-batal:focus{
+    transition: all 0.25s linear 0s;
+
+    background-color: #c0392b;
+}
+
+.button-ya{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-ya:hover, .button-ya:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.modal-centerButton{
+    width: 215px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+}
+
+.modal-margin{
+    margin-left: 0px;
+}
+
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-md, .nav-sm{
+    padding-right: 0px !important;
+}
+
+
+
+
+.box-aturBerita{
+    margin-bottom: 20px;
+}
+
+.boxOut-beritaLeft{
+    padding-right: 20px;
+}
+
+.boxOut-beritaRight{
+    padding-left: 20px;
+    text-align: right;
+}
+
+.btn-search{
+    position: relative;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+    padding-top: 7px;
+    padding-left: 10px;
+    border-radius: 0px;
+    background-color: white;
+    color: #95a5a6;
+    transition-duration:0.1s;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: all 0.25s linear 0s;
+    margin: 0px;
+    border: 1px solid #95a5a6;
+    border-left: none;
+}
+
+.btn-search:hover, .btn-search:focus {
+    border-color: #008044 !important;
+    background-color: #f4f6f6 !important;
+    color: #95a5a6 !important;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-search .input-group{
+    margin: 0;
+}
+
+.field-search, .field-search:focus{
+    padding-left: 20px;
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+    font-weight: normal;
+    background-image: url('../../../img/icon/search-icon.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right 10px center;
+}
+
+.field-search::-webkit-input-placeholder { color: #C9CACA !important; font-size: 12px; font-style: italic; }
+.field-search:-moz-placeholder { color: #C9CACA !important; font-size: 12px; font-style: italic; }
+.field-search::-moz-placeholder { color: #C9CACA !important; font-size: 12px; font-style: italic;}
+.field-search:-ms-input-placeholder { color: #C9CACA !important; font-size: 12px; font-style: italic; }
+
+
+
+
+.dataTables_filter label{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+.table > thead > tr > th {
+    border-bottom: none;
+    border: none !important;
+}
+
+.dataTables_length {
+    width: 50%;
+}
+
+.dataTables_filter {
+    width: 50%;
+    float: left;
+}
+
+.dataTables_info {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.dataTables_paginate {
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.paginate_button{
+    cursor: pointer;
+}
+
+.dataTables_length label, .dataTables_filter label{
+    margin-bottom: 10px;
+}
+
+
+.dropdown-edit-konfirmasiPembayaran{
+    width: 55px !important;
+    height: 35px !important;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+    background-position: 90% 50% !important;
+}
+
+.data-1{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-weight: normal !important;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.data-2{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-weight: normal !important;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.bulk-actions{
+    padding: 5px !important;
+    padding-left: 8px !important;
+}
+
+.dataTables_paginate a {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+.dataTables_paginate a:hover {
+    color: #1abc9c;
+}
+
+.span-elipsis{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+    background-position: 98% 50%;
+    margin-bottom: 0px;
+}
+
+.kategori-1 {
+    background-color: #16a085;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    font-size: 12px;
+}
+
+.kategori-2 {
+    background-color: #c0392b;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    font-size: 12px;
+}
+
+.kategori-3 {
+    background-color: #2980b9;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    float: right;
+    font-size: 12px;
+}
+
+
+.field-text::-webkit-input-placeholder { color: #A9ABAE !important; }
+.field-text:-moz-placeholder { color: #A9ABAE !important; }
+.field-text::-moz-placeholder { color: #A9ABAE !important; }
+.field-text:-ms-input-placeholder { color: #A9ABAE !important; }
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .modal-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .modal-textContent {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .button-batal {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .button-ya {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .modal-centerButton{
+        width: 175px;
+    }
+
+    .sukses{
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxOut-contentPage {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .box-aksi a {
+        font-size: 9px;
+    }
+
+    .box-aksi img {
+        height: 10px;
+    }
+
+    .edit-tableBerita{
+        font-size: 12px;
+    }
+
+    .box-judul {
+        max-height: 35px;
+    }
+
+    .column-title-1 {
+        width: 125px !important;
+    }
+
+    .column-title-3 {
+        width: 100px !important;
+    }
+
+    .column-1{
+        width: 125px !important;
+    }
+    .column-3{
+        width: 100px !important;
+    }
+
+    .btn-search{
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        padding-top: 6px;
+        padding-left: 8px;
+    }
+
+    .box-bulk-actions {
+        margin-top: 3px;
+    }
+
+    .button-hapus{
+        margin-left: 50px;
+    }
+
+    .editTextArea, .editTextArea:focus {
+        font-size: 12px;
+    }
+
+    .input-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-img {
+        background-size: auto 15px;
+    }
+
+    .input-fieldKomfirmasi {
+        height: 30px;
+    }
+
+    .input-form3 .btn-file {
+        width: 70px;
+        font-size: 10px;
+        padding-top: 6px;
+    }
+
+    .a-field, .a-jadwal, .a-dokumen, .a-kontak {
+        font-size: 11px;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3 {
+        padding: 4px 10px;
+        width: 100px;
+    }
+
+
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .modal-textContent {
+        font-size: 14px;
+    }
+
+    .box-aksi{
+        width: 100px;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .boxOut-beritaRight {
+        padding-left: 0px;
+    }
+
+    .boxOut-beritaLeft {
+        padding-right: 0px;
+    }
+
+    .boxOut-beritaRight{
+        text-align: left;
+    }
+
+    .box-aturBerita {
+        margin-bottom: 10px;
+    }
+
+    .box-bulk-actions{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .dataTables_length {
+        width: 100%;
+    }
+
+    .dataTables_filter {
+        width: 100%;
+    }
+
+    .edit-tableBerita {
+        border: none;
+    }
+
+    .box-judul {
+        width: 500px;
+    }
+
+    .box-aksi{
+        width: 100px;
+    }
+
+    .dataTables_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dataTables_paginate {
+        width: 100%;
+        text-align: center;
+        //min-width: 300px;
+    }
+
+    .dataTables_paginate{
+        font-size: 11px;
+    }
+
+    .dataTables_paginate a {
+        padding: 5px 5px !important;
+        margin: 0px 3px !important;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3 {
+        float: left;
+        margin-top: 15px;
+    }
+
+
+}

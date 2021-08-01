@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 2:40:08 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: white;
+}
+
+.container-margin{
+    margin-top: 70px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-titleContent{
+    font-size: 22px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.boxOut-titleContent-2{
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.boxOut-padding{
+    padding-right: 20px;
+}
+
+.boxOut-sumpahImg img{
+    max-width: 340px;
+    height: 14px;
+    width: 90%;
+}
+
+.boxOut-sumpahText{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.boxOut-marsText{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.boxOut-padding3{
+    margin-top: 10px;
+}
+
+.boxOut-paralax{
+    margin-top: 40px;
+    height: 200px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image:  url('../../img/icon/about4.png'), url('../../img/icon/shotokan2.png');
+    background-position: left, right;
+}
+
+.border-member{
+    border-top: 5px solid #c7b278;
+    width: 200px;
+    float: none;
+    margin-bottom: 30px;
+}
+
+.boxOut-tentang{
+    text-align: justify;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-margin {
+        margin-top: 50px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .container-margin{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-titleContent-2{
+        font-size: 17px;
+    }
+
+    .boxOut-sumpahText{
+        font-size: 12px;
+    }
+
+    .boxOut-marsText{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        //margin-top: 106px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 20px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .boxOut-tentang{
+        font-size: 13px;
+    }
+
+
+    .boxOut-marsText {
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .boxOut-sumpahText {
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .boxOut-paralax{
+        background-image:  url('../../img/icon/about3.jpg');
+        background-position: center;
+    }
+
+}

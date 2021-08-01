@@ -1,0 +1,453 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 2:40:08 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: #F4F5F6;
+}
+
+.container-margin{
+    margin-top: -220px;
+    background-color: white;
+    padding: 15px;
+    min-height: 700px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-titleContent{
+    font-size: 26px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.boxOut-Scroll{
+    height: 720px;
+    overflow-y: scroll;
+    margin-bottom: 21px;
+    padding-top: 10px;
+}
+
+.boxOut-rowDojo > .col-md-3{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+
+.boxOut-dojo{
+    height: 242px;
+    overflow: hidden;
+    border: 1px solid #7f8c8d;
+}
+
+.boxOut-dojo{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    //border-radius: 10px;
+    transition: all 0.2s linear 0s;
+    //box-shadow: 0px 0px 5px #333333;
+}
+
+.boxOut-dojo:hover{
+    transform: scale(1.04);
+    transition: all 0.2s linear 0s;
+    box-shadow: 0px 0px 4px #333333;
+}
+
+.box-dojo{
+    height: inherit;
+    background-color: rgba(51, 51, 51, 0.4);
+}
+
+.boxOut-dojoText{
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.box-dojoText{
+    overflow: hidden;
+    height: 45px;
+}
+
+.boxOut-rowDojo a{
+    color: white;
+}
+
+.boxOut-listDojo a:hover .box-dojo{
+    background-color: rgba(51, 51, 51, 0);
+}
+
+.lokasiDojo a{
+    height: 70px;
+    color: #34495e;
+    font-size: 15px;
+    padding: 20px 0px 10px 0px !important;
+}
+
+
+.lokasiDojo a:hover, .lokasiDojo a:focus, .lokasiDojo.active a  {
+    background-color: transparent !important;
+    border-bottom: none;
+    color: #c71212;
+}
+
+.lokasiDojo.active a{
+    border-bottom: 2px solid #c71212;
+    color: #c71212;
+}
+
+.edit-nav-header-dojo{
+    margin-top: 29px;
+    margin-bottom: 25px;
+    width: 450px;
+    float: none;
+    font-weight: bold;
+
+}
+
+.edit-nav-header-dojo > .sideMenu-li{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    border-right: 1px dotted #7f8c8d;
+}
+
+.edit-nav-header-dojo > .sideMenu-li:last-child{
+    border-right: none;
+}
+
+.edit-nav-header-dojo > .sideMenu-li a{
+    height: auto;
+    font-size: 16px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.boxOut-backgroundContent{
+    margin-top: 70px; 
+    background-image: url('../../img/wallpaper/test4.jpg'); 
+    background-position: center center; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 470px;
+    padding-top: 40px;
+}
+
+
+.boxOut-judulContent{
+    background-color: #34495e;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    border-left: 10px solid #2c3e50;
+    font-size: 30px;
+    color: white;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
+
+
+
+.box-member{
+    background-color: rgba(51, 51, 51, 0.4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.border-member{
+    border-top: 2px solid white;
+    width: 150px;
+    float: none;
+}
+
+.boxOut-memberIsi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.boxOut-memberText{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxOut-listDojo{
+    padding: 15px;
+}
+
+.box-fotoDojo{
+    height: 135px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    //border-radius: 10px;
+    //transition: all 0.2s linear 0s;
+    //box-shadow: 0px 0px 5px #333333;
+}
+
+.boxOut-listDojo a{
+    color: #34495e;
+
+}
+
+.box-keterangan{
+    height: 140px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+.box-namaDojo{
+    padding-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    background-color: #7f8c8d;
+    color: white;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.keterangan{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.keterangan .col-md-2{
+    white-space: nowrap;
+    overflow: hidden;
+    //text-overflow: ellipsis;
+}
+
+.keterangan .box-jadwal {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px !important;
+}
+
+.keterangan .col-md-9 {
+    height: 36px;
+}
+
+
+
+
+
+
+.button-save{
+    margin: 0px;
+    background-color: #7f8c8d;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-save:hover, .button-save:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #1abc9c;
+}
+
+.box-buttonSave{
+    width: 90px;
+    margin-top: 5px;
+}
+
+.informasiContent{
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    font-size: 18px; 
+    height: 150px; 
+    color: white;
+}
+
+.boxOut-dojo{
+    height: inherit;
+}
+
+.box-fotoDojo {
+    height: 100px;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-backgroundContent {
+        margin-top: 50px;
+    }
+
+    .boxOut-memberIsi {
+        font-size: 20px;
+    }
+
+    .border-member {
+        width: 130px;
+    }
+
+    .informasiContent{
+        font-size: 16px;
+        height: 120px;
+    }
+
+    .boxOut-backgroundContent {
+        height: 380px;
+    }
+
+    .box-namaDojo {
+        font-size: 14px;
+    }
+
+    .keterangan {
+        font-size: 11px;
+    }
+
+    .boxOut-dojo{
+        height: inherit;
+    }
+
+    .box-fotoDojo {
+        height: 100px;
+    }
+
+    .boxOut-backgroundContent{
+        height: 410px;
+    }
+
+    .container-margin{
+        margin-top: -165px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-rowDojo .boxOut-dojo{
+        height: 143px;
+    }
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .boxOut-dojo{
+        height: inherit;
+    }
+
+    .box-fotoDojo {
+        height: 80px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        margin-top: 106px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 20px;
+    }
+
+    .boxOut-rowDojo > .col-md-4{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-rowDojo > .col-md-4:first-child{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-rowDojo > .col-md-4:last-child{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-titleContent {
+        font-size: 22px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .edit-nav-header-dojo > .sideMenu-li a{
+        font-size: 14px !important;
+    }
+
+    .edit-nav-header-dojo > .sideMenu-li{
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .edit-nav-header-dojo {
+        width: 270px;
+    }
+
+    .box-namaDojo {
+        font-size: 16px;
+    }
+
+
+
+    .boxOut-backgroundContent {
+        height: inherit;
+    }
+
+    .informasiContent {
+        height: inherit;
+    }
+
+    .container-margin {
+        margin-top: 0px;
+        padding: 20px 20px 20px 20px;
+    }
+
+}

@@ -1,0 +1,542 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 2:40:08 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: #F4F5F6;
+}
+
+.container-margin{
+    margin-top: -195px;
+    background-color: transparent;
+    padding: 0px;
+
+}
+
+.tab-content{
+    min-height: 700px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-backgroundContent{
+    margin-top: 70px; 
+    background-image: url('../../img/wallpaper/tg-1.jpg'); 
+    background-position: center center; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 470px;
+    padding-top: 40px;
+}
+
+
+.boxOut-judulContent{
+    background-color: #34495e;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    border-left: 10px solid #2c3e50;
+    font-size: 30px;
+    color: white;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.box-member{
+    background-color: rgba(51, 51, 51, 0.4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.border-member{
+    border-top: 2px solid white;
+    width: 150px;
+    float: none;
+}
+
+.boxOut-memberIsi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.boxOut-memberText{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.informasiContent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    height: 150px;
+    color: white;
+}
+
+
+
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+    margin: 0px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0px;
+}
+
+ul.bar_tabs > li a {
+    background: #F5F7FA;
+    margin: 0;
+}
+
+ul.bar_tabs {
+    margin-bottom: -1px !important;
+}
+
+ul.bar_tabs {
+    border-bottom: 1px solid transparent;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent transparent transparent;
+}
+
+ul.bar_tabs > li {
+    border: 1px solid #E6E9ED;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 233, 237);
+    margin-top: -18px;
+    margin-left: 0px;
+    background: #fff;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #73879C !important;
+}
+
+ul.bar_tabs > li.active {
+    border-right: 5px solid #1abc9c;
+    border-top: 0;
+    margin-top: -26px;
+    color: #73879C !important;
+}
+
+ul.bar_tabs > li.active a {
+    border-bottom: none;
+    padding: 10px 20px;
+    color: #73879C !important;
+
+}
+
+ul.bar_tabs > li a {
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+ul.bar_tabs > li a {
+    color: #73879C !important;
+
+}
+
+.td-berita-1{
+    width: 170px;
+    text-align: left;
+}
+
+.td-berita-2{
+    width: 170px;
+    text-align: left;
+}
+
+.td-berita-3{
+    text-align: left;
+}
+
+
+
+
+.edit-tableJudul{
+    border-bottom: 2px solid #c7b278;
+}
+
+.judulTable > td{
+    padding-bottom: 10px;
+
+}
+
+.edit-boxTable{
+    margin-bottom: 20px;
+}
+
+.judulTable{
+    font-size: 13px;
+}
+
+
+
+
+
+
+/*PAGING*/
+.berita {
+    display: none;
+}
+
+.pagination{
+    float: none;
+}
+
+.box-pagination{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pagination {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover{
+    background-color: #1abc9c !important;
+    color: white !important;
+    border: 1px solid #1abc9c !important;
+}
+
+.pagination > li > a, .pagination > li > a:hover{
+    color: white;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    background-color: #7f8c8d;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border: 1px solid #7f8c8d;
+    border-radius: 5px !important;
+    transition: all 0.2s linear 0s;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: white;
+    background-color: #7f8c8d;
+    border-color: transparent;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: #ecf0f1 !important;
+    color: #7f8c8d !important;
+    border: 1px solid #7f8c8d !important;
+    transition: all 0.2s linear 0s;
+}
+
+.pagination > li > a, .pagination > li > span {
+    padding: 5px 10px;
+}
+
+
+
+
+.table-responsive {
+    overflow-x: inherit;
+}
+
+.table-berita-edit td{
+    vertical-align: top;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.tab-pane{
+    color: #7f8c8d;
+}
+
+.td-berita-tanggal{
+    padding-top: 5px;
+}
+
+.kategori-1 {
+    background-color: #16a085;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+.kategori-2 {
+    background-color: #c0392b;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+.kategori-3 {
+    background-color: #2980b9;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+.kategori-4 {
+    background-color: #8e44ad;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+
+table a{
+    color: #2980b9;
+}
+
+table a:hover{
+    color: #7f8c8d;
+}
+
+.td-judul-berita{
+    text-align: justify;
+}
+
+#replace1, #replace2, #replace3 {
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-backgroundContent {
+        margin-top: 50px;
+    }
+
+    .boxOut-backgroundContent {
+        height: 380px;
+    }
+
+    .boxOut-memberIsi {
+        font-size: 20px;
+    }
+
+    .border-member {
+        width: 130px;
+    }
+
+    .informasiContent{
+        font-size: 16px;
+        height: 120px;
+    }
+
+    .container-margin{
+        margin-top: -140px;
+    }
+
+    ul.bar_tabs > li a {
+        font-size: 12px;
+    }
+
+    .table-berita-edit td {
+        font-size: 13px;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3, .kategori-4 {
+        padding: 4px 10px;
+        width: 100px;
+    }
+    
+    .boxOut-backgroundContent{
+        height: 410px;
+    }
+
+    .container-margin{
+        margin-top: -135px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .container-margin{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-kategori{
+        text-align: right;
+    }
+
+    .boxOut-keterangan{
+        padding-bottom: 10px;
+        font-size: 12px;
+        color: #7f8c8d 
+    }
+
+    .box-judul{
+        font-size: 13px;
+        padding-left: 0px;
+    }
+
+    .boxOut-sort {
+        border-bottom: 3px solid #c7b278;
+    }
+
+    .box-kategori{
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        margin-top: 106px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .box-buttonSort{
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .carousel-background {
+        background-color: #bdc3c7;
+    }
+
+    .boxOut-backgroundContent {
+        height: inherit;
+    }
+
+    .informasiContent {
+        height: inherit;
+    }
+
+    .container-margin {
+        margin-top: 0px;
+        padding: 40px 10px 10px 10px;
+    }
+
+    ul.bar_tabs > li a {
+        padding: 5px 5px;
+    }
+
+    ul.bar_tabs > li.active a {
+        padding: 10px 10px;
+    }
+
+    ul.bar_tabs > li a {
+        font-size: 11px;
+    }
+
+
+
+
+    .td-tanggal{
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .td-kategori{
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .td-judul{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+
+
+    .edit-boxTable{
+        display: none;
+    }
+
+    .td-berita-2 {
+        float: right;
+    }
+
+    .kategori-1, .kategori-2, .kategori-3, .kategori-4 {
+        float: right;
+    }
+
+    .table-responsive {
+        border: none;
+    }
+
+    .td-judul-berita {
+        padding-bottom: 20px;
+        border-bottom: 1px dotted #7f8c8d;
+    }
+
+    .td-berita-1, .td-berita-2 {
+        width: 100%;
+    }
+
+    .pagination > li > a, .pagination > li > span {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .pagination > li > a, .pagination > li > a:hover {
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+
+}

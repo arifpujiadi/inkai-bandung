@@ -1,0 +1,504 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 28, 2016, 5:12:53 AM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: #ecf0f1;
+}
+
+.container-margin{
+    margin-top: 70px;
+    background-color: white;
+    padding: 30px;
+}
+
+
+/* Content */
+/* ================================================== */
+
+.boxOut-titleDojo{
+    font-size: 26px;
+    //padding-top: 30px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.boxOut-fotoDojo img{
+    width: 100%;
+    max-height: 328px;
+}
+
+.boxOut-buttonGallery{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button-gallery{
+    color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 12px;
+    border: 2px solid black;
+    background-color: transparent;
+    position: relative;
+    transition: all 0.25s linear 0s;
+}
+
+.button-gallery:hover{
+    border: 2px solid #c71212;
+    color: #c71212;
+    transition: all 0.25s linear 0s;
+}
+
+.button-gallery img{
+    width: 22px;
+    height: 14px;
+    margin-right: 10px;
+    margin-top: -2px;
+    transition: all 0.25s linear 0s;
+}
+
+.button-gallery img.img-galleryWhite{
+    display: none;
+    transition: all 0.25s linear 0s;
+}
+
+.button-gallery:hover img.img-galleryWhite{
+    display: inherit;
+    transition: all 0.25s linear 0s;
+}
+
+.button-gallery:hover img.img-galleryBlack{
+    display: none;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-keteranganDojo{
+    padding-left: 40px;
+}
+
+.boxOut-titleInformasi{
+    font-size: 16px;
+}
+
+.boxOut-keteranganList{
+    margin-bottom: 25px;
+}
+
+.table-jadwal{
+    font-size: 13px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.table-jadwal table{
+    border: 1px solid #EEEEEF;
+    border-right: 0px none;
+}
+
+.table-jadwal td{
+    padding: 5px 10px;
+    border-right: 1px solid #EEEEEF;
+    border-bottom: 1px solid #EEEEEF;
+    font-size: 14px;
+}
+
+.judulTable{
+    background-color: #dfe0e0;
+    color: black;
+}
+
+.grey-tableTr{
+    background-color: #FBFCFC;
+}
+
+.informasi-pointCircle{
+    border-radius: 100%;
+    background-color: black;
+    height: 6px;
+    width: 6px;
+    margin-top: 12px;
+    margin-left: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.point-text{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.point-text a{
+    color: black; 
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.point-text a:hover{
+    color: #c71212;;
+}
+
+.boxOut-dojoDeskripsi{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxOut-peta{
+    height: 400px;
+    //margin-bottom: 30px;
+    border-top: 1px solid #EEEEEF;
+    //background-color: #EEEEEF;
+}
+
+
+
+
+
+
+/* Modal - Profile*/
+/* ================================================== */
+
+.titleModal {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.editModal-content{
+    padding: 0px 20px;
+    border-radius: 0px;
+}
+
+.editModal-header{
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.modal-header {
+    padding-bottom: 10px;
+}
+
+.editModal-body{
+    padding: 20px 0px;
+}
+
+.modal-margin{
+    margin-top: 5%;
+}
+
+.foto-popupProfil{
+
+}
+
+.foto-popupProfil img{
+    width: 100%;
+    max-width: 232px;
+    max-height: 309px;
+    padding: 5px;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 30px;
+}
+
+.boxOut-dataPopupProfil{
+    padding-left: 30px;
+}
+
+.boxOut-popupList{
+    margin-bottom: 20px;
+}
+
+.boxOut-titlePopup{
+    font-size: 16px;
+}
+
+.boxOut-popupModalBottom{
+    margin-bottom: 30px;
+}
+
+.boxOut-informasiPopup{
+    font-size: 14px;
+}
+
+.boxOut-titleModalBottom{
+    border-left: 4px solid #c71212;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    //margin-top: 20px;
+}
+
+.boxOut-informasiModalBottom{
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.titleModal-nama{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.point-text{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.point-text a {
+    color: black;
+    font-size: 14px;
+    //padding-bottom: 5px;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted black;
+}
+
+.point-text a:hover {
+    border-bottom: 1px dotted #c71212;
+}
+
+.point-text a:hover{
+    color: #c71212;;
+}
+
+.point-textModal{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.point-textModal a{
+    color: #34495e;
+    font-size: 13px;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted #34495e;
+}
+
+.point-textModal a:hover{
+    color: #c71212;;
+    border-bottom: 1px dotted #c71212;
+}
+
+.boxOut-biodata {
+    padding-left: 15px;
+}
+
+.table-biodata{
+    font-size: 13px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    padding: 0px !important;
+    border: none !important;
+}
+
+.table-biodata table{
+    border-right: 0px none;
+}
+
+.table-biodata td{
+    padding: 5px 0px;
+    vertical-align: text-top;
+}
+
+.grey-tableTr{
+    background-color: #FBFCFC;
+}
+
+.td-1{
+    width: 90px;
+}
+
+.td-2{
+    width: 15px;
+}
+
+
+
+
+
+/* Modal - Gallery*/
+/* ================================================== */
+
+.editModal-contentGallery{
+    padding: 0px 20px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.rg-image-wrapper {
+    background-color: black;
+}
+
+.es-carousel-wrapper {
+    border-radius: 0px;
+}
+
+.rg-image-wrapper {
+    border-radius: 0px;
+}
+
+.rg-image-nav a {
+    background-color: #101010;
+    opacity: 1;
+}
+
+.modal-marginGallery{
+    margin-top: 5%;
+}
+
+.rg-view{
+    display: none;
+}
+
+.rg-thumbs{
+
+}
+
+
+
+/* Gmap*/
+/* ================================================== */
+
+.boxOut-popupGmap{
+    width: 150px;
+}
+
+.box-gmapFoto{
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.box-gmapFoto img{
+    height: 100%;
+    width: 100%;
+}
+
+.box-gmapText{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width:1366px) {
+
+    .container-margin {
+        margin-top: 50px;
+    }
+
+    .boxOut-titleDojo {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .container-margin {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .box-peta{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container-margin{
+        //margin-top: 106px;
+        padding: 20px 20px 20px 20px;
+    }
+
+
+    /* Content */
+    /* ================================================== */
+
+    .boxOut-titleDojo{
+        font-size: 22px;
+    }
+
+    .boxOut-fotoDojo{
+        text-align: center;
+    }
+
+    .boxOut-fotoDojo img{
+        max-width: 310px;
+        max-height: 207px;
+    }
+
+    .boxOut-keteranganDojo{
+        padding-left: 0px;
+    }
+
+    .box-peta{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-peta {
+        margin-bottom: 0px;
+    }
+
+
+    /* Modal - Profil */
+    /* ================================================== */
+
+    .boxOut-popupList{
+        margin-bottom: 10px;
+    }
+
+    .foto-popupProfil img{
+        width: 100%;
+        max-width: 150px;
+        max-height: 200px;
+    }
+
+    .boxOut-titlePopup{
+        font-size: 14px;
+    }
+
+    .boxOut-biodata{
+        padding-left: 15px;
+    }
+
+    .boxOut-dataPopupProfil{
+        padding-left: 0px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+
+}

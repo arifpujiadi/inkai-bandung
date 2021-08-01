@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 11:04:42 AM
+    Author     : Arif
+*/
+
+.boxOut-contentPage{
+    background-color: white;
+    margin-top: 30px;
+    // padding: 30px 50px;
+
+    //padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.boxOut-content-left {
+    padding: 30px 50px;
+    background-color: white;
+}
+
+.boxOut-content-right {
+    padding: 30px 50px;
+    background-color: #E4F4FD;
+}
+
+.boxOut-change-img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.box-change-img{
+    width: 150px;
+    height: 150px;
+    float: none;
+    overflow: hidden;
+}
+
+.box-change-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-listField {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.boxOut-save{
+    background-color: #bdc3c7;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 3px solid #1A64B8;
+}
+
+.button-save{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-save:hover, .button-save:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.box-buttonSave{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-contentPage {
+        margin-top: 20px;
+    }
+
+    .box-change-img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .boxOut-change-img {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .boxOut-titleContent {
+        font-size: 18px;
+    }
+
+    .button-save {
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .boxOut-save {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .boxOut-content-left {
+        padding: 30px 30px;
+    }
+
+    .boxOut-content-right {
+        padding: 30px 30px;
+    }
+
+}

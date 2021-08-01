@@ -1,0 +1,727 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 11:04:42 AM
+    Author     : Arif
+*/
+
+.boxOut-contentPage{
+    background-color: white;
+    margin-top: 30px;
+    // padding: 30px 50px;
+    border-left: 3px solid #1A64B8;
+    //padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+
+
+
+.modal-login > .modal-dialog {
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    margin-top: 15%;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+
+.editModal-content{
+    border-radius: 0px;
+    padding: 30px 20px 30px 20px;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.modal-textContent{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.button-batal{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-batal:hover, .button-batal:focus{
+    transition: all 0.25s linear 0s;
+
+    background-color: #c0392b;
+}
+
+.button-ya{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-ya:hover, .button-ya:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.modal-centerButton{
+    width: 215px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+}
+
+.modal-margin{
+    margin-left: 0px;
+}
+
+.sukses{
+    color: #1ABC9C;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-md, .nav-sm{
+    padding-right: 0px !important;
+}
+
+
+.boxOut-content-left{
+    padding: 30px 50px;
+    background-color: white;
+}
+
+.boxOut-content-right{
+    padding: 30px 50px;
+    background-color: #E4F4FD;
+    min-height: 705px;
+}
+
+.boxOut-listField{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.notif{
+    height: 35px;
+    font-size: 12px;
+    padding-left: 10px;
+    overflow: hidden;
+    margin: 0px;
+
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -moz-box;
+    display: flex;
+
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif p{
+    margin: 0px;
+}
+
+
+
+
+.boxOut-thumbail{
+    height: 205px;
+    overflow: hidden;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #1A64B8;
+    border: 0;
+    width: 90px;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 4px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+.btn-file-2{
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+}
+
+.width-nameFile{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.width-fileButton{
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+
+
+.input-fieldKomfirmasi{
+    height: 40px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: 1px solid #95a5a6 !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+    float: left;
+}
+
+.input-logo{
+    width: 40px;
+    height: 40px;
+    background-color: #95a5a6;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.input-html{
+    background-size: 19px 13px;
+}
+
+.input-img{
+    background-size: auto 20px;
+}
+
+.boxOut-lampir-file{
+    margin-top: 0px;
+}
+
+.boxOut-nameFile .input-group {
+    margin-bottom: 0px;
+}
+
+.keterangan-field {
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-dokumen{
+    background-image: url('../../../img/icon/unduhBerkas.png');
+}
+
+.box-jarak-left{
+    padding-right: 15px;
+}
+
+.box-jarak-right{
+    padding-left: 5px;
+}
+
+
+
+
+.bankList {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxOut-bankList{
+    max-height: 430px;
+    //background-color: white;
+    margin-top: 20px;
+    //min-height: 100px;
+    height: inherit;
+    overflow: auto;
+}
+
+.box-bankList{
+    background-color: white;
+}
+
+.box-bankList{
+    border-bottom: 4px solid #E4F4FD;
+}
+
+.boxOut-actionImg{
+    text-align: center;
+}
+
+.a-edit{
+    width: 20px;
+}
+
+.box-a{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.boxOut-actionImg img{
+    width: 17px;
+    height: 18px;
+}
+
+.boxOut-actionImg-delete{
+    text-align: center;
+}
+
+.boxOut-actionImg-delete img{
+    width: 13px;
+    height: 18px;
+}
+
+.boxOut-rincianList{
+    background-color: #EDEDED;
+    padding: 20px 10px 20px 10px;
+    display: none;
+}
+
+
+
+
+.btn-search{
+    position: relative;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+    padding-top: 7px;
+    padding-left: 10px;
+    border-radius: 0px;
+    background-color: #48c5f3;
+    color: white;
+    transition-duration:0.1s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.25s linear 0s;
+    margin: 0px;
+    border: 1px solid #95a5a6;
+    border-left: none;
+}
+
+.btn-search:hover, .btn-search:focus {
+    border-color: #008044 !important;
+    background-color: #3a9dc1 !important;
+    color: white !important;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-search .input-group{
+    margin: 0;
+}
+
+.field-search, .field-search:focus{
+/*    border-right: transparent;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;*/
+    background-image: url('../../../img/icon/search-icon-blue.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right 10px center;
+}
+
+
+
+.box-buttonSave{
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-send{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-send:hover, .button-send:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+
+.boxOut-textAction{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.photo-admin{
+    height: 70px;
+    width: 70px;
+    max-width: 100%;
+    border-radius: 100%;
+    border: 4px solid #bdc3c7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+    margin-top: 5px;
+}
+
+.title-admin{
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+.nama-admin{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #4D4D4D;
+}
+
+.title-jabatan{
+    margin-top: 5px;
+    color: #4D4D4D;
+}
+
+.box-action{
+    padding-top: 20px;
+}
+
+.box-list{
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+.dropdown-jabatan{
+    margin-bottom: 0px !important;
+    padding-right: 15px;
+}
+
+.boxOut-titleAdmin{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box-buttonSaveAdmin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.a-rincian, .a-delete{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-contentPage {
+        margin-top: 20px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .modal-textContent {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .button-batal {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .button-ya {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .modal-centerButton{
+        width: 175px;
+    }
+
+    .sukses{
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxOut-content-left {
+        padding: 30px 30px;
+    }
+
+    .boxOut-content-right {
+        padding: 30px 30px;
+    }
+
+    .notif {
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .input-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-img {
+        background-size: auto 15px;
+    }
+
+    .input-fieldKomfirmasi {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .input-form3 .btn-file {
+        width: 70px;
+        font-size: 10px;
+        padding-top: 6px;
+    }
+
+    .btn-search{
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        padding-top: 6px;
+        padding-left: 9px;
+    }
+
+    .boxOut-textAction {
+        font-size: 10px;
+    }
+
+    .box-bankImg img {
+        height: 18px;
+    }
+
+    .boxOut-actionImg-delete img {
+        width: 14px;
+        height: 18px;
+    }
+
+    .boxOut-actionImg img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .photo-admin{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    .title-admin{
+        font-size: 10px;
+    }
+
+    .nama-admin{
+        font-size: 12px;
+    }
+
+    .boxOut-titleAdmin{
+        font-size: 10px;
+    }
+
+    .boxOut-content-right {
+        min-height: 655px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .modal-login > .modal-dialog {
+        margin-top: 45%;
+    }
+
+    .namaDojo {
+        font-size: 10px;
+        max-height: 35px;
+    }
+
+    .keteranganDojo {
+        font-size: 8px;
+        padding-top: 10px;
+        max-height: 30px;
+    }
+
+    .notif{
+        height: 15px;
+        display: block;
+        padding-left: 0px;
+        margin-top: 5px;
+        font-size: 9px;
+
+        justify-content: normal;
+        align-items: normal;
+    }
+
+    .boxOut-listField {
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    .modal-textContent {
+        font-size: 14px;
+    }
+
+    .photo-admin{
+        height: 80px;
+        width: 80px;
+    }
+
+    .title-admin{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .nama-admin{
+        text-align: center;
+    }
+
+    .boxOut-textAction {
+        font-size: 12px;
+    }
+
+    .boxOut-actionImg img{
+        width: 12px;
+        height: 13px;
+    }
+
+
+    .boxOut-actionImg-delete img{
+        width: 10px;
+        height: 15px;
+    }
+
+    .boxOut-content-right {
+        min-height: available;
+    }
+
+    .photo-admin {
+        margin-top: 0px;
+    }
+
+    .box-action {
+        padding-top: 10px;
+    }
+
+    .box-buttonSave {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+}

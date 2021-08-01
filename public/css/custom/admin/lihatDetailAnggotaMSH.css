@@ -1,0 +1,823 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 11:04:42 AM
+    Author     : Arif
+*/
+
+.boxOut-contentPage{
+    background-color: white;
+    margin-top: 30px;
+    // padding: 30px 50px;
+    //border-left: 3px solid #1A64B8;
+    padding: 30px 40px;
+}
+
+/*-- Tab Index --*/
+/*--==================================================--*/
+
+.navbarMenu-spesifikasiBarang{
+    padding: 0px 0px;
+}
+
+.navbarMenu-spesifikasiBarang > .nav-tabs{
+    padding-left: 0px;
+    border-bottom: 4px solid #1A64B8;
+}
+
+.nav-tabs-spesifikasiBarang > li{
+    margin-bottom: 0px;
+    margin-right: -8px;
+
+}
+
+.navbarMenu-spesifikasiBarang > .nav-tabs > li.active > a, 
+.navbarMenu-spesifikasiBarang > .nav-tabs > li.active > a:hover{
+    color: white;
+    background-color: #1A64B8;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    padding: 7px 0px 7px 0px;
+    margin-top: -2px;
+    width: 125px;
+    border: none !important;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-color: transparent;
+    margin-bottom: -3px;
+
+}
+
+.navbarMenu-spesifikasiBarang > .nav-tabs > li > a{
+    color: #5F5D5D;
+    background-color: #D9DEE4;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    width: 115px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-right: 0px;
+    border: 1px solid transparent;
+    border-bottom: none;
+    -moz-box-sizing: border-box;
+}
+
+.nav-tabs-spesifikasiBarang > li{
+    margin-bottom: 0px;
+}
+
+.tab-title-spesifikasi.active{
+    z-index: 3 !important;
+}
+
+.boxTab {
+    border: 2px solid #E6E7E8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0px;
+    background-color: white;
+    padding: 30px 50px;
+    font-size: 14px;
+    border-top: none;
+}
+
+
+
+
+.boxOut-listField{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.field-search, .field-search:focus{
+    background-image: url('../../../img/icon/search-icon-blue.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right 10px center;
+    margin-bottom: 5px;
+}
+
+.boxOut-profilePhoto{
+    width: 150px;
+    height: 200px;
+    border: 2px solid #D9DEE4;
+    //border-radius: 100% !important;
+    float: none;
+    overflow: hidden;
+}
+
+.boxOut-profilePhoto img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-changePicture{
+    width: 130px;
+}
+
+.input-fieldKomfirmasi{
+    border: none !important;
+    text-align: center;
+    box-shadow: none !important;
+    font-size: 12px;
+}
+
+.button-changePicture{
+    margin: 0px;
+    background-color: #1A64B8;
+    color: white;
+    width: 100%;
+    font-size: 13px;
+    height: 25px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none !important;
+    padding-top: 3px;
+}
+
+.button-changePicture:hover, .button-changePicture:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #155196;
+    color: white;
+}
+
+
+
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+
+
+
+.boxOut-bottom{
+    margin-top: 20px;
+}
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+    margin-bottom: 5px;
+}
+
+.box-left{
+    padding-right: 20px;
+}
+
+.box-right{
+    padding-left: 20px;
+}
+
+.boxOut-right{
+    padding-left: 30px;
+    border-left: 4px solid black;
+    min-height: 1600px;
+}
+
+.box-radio{
+    font-size: 12px;
+    color: #4D4D4D;
+    margin-top: 10px;
+}
+
+.boxOut-timeLeft{
+    padding-right: 10px;
+}
+
+.boxOut-timeMiddle{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.boxOut-timeRight{
+    padding-left: 10px;
+}
+
+.boxOut-timeLeft-2{
+    padding-right: 10px;
+}
+
+.boxOut-timeMiddle-2{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.boxOut-timeRight-2{
+    padding-left: 10px;
+}
+
+.box-buttonSave{
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-send{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-send:hover, .button-send:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+
+
+/* Sukses */
+.modal-login > .modal-dialog {
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    margin-top: 15%;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+
+.editModal-content{
+    border-radius: 0px;
+    padding: 30px 20px 30px 20px;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.modal-textContent{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.button-batal{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-batal:hover, .button-batal:focus{
+    transition: all 0.25s linear 0s;
+
+    background-color: #c0392b;
+}
+
+.button-ya{
+    margin: 0px;
+    background-color: #555555;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-ya:hover, .button-ya:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #11804C;
+}
+
+.modal-centerButton{
+    width: 215px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+}
+
+.modal-margin{
+    margin-left: 0px;
+}
+
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-md, .nav-sm{
+    padding-right: 0px !important;
+}
+
+
+.boxOut-content-left{
+    padding: 30px 50px;
+    background-color: white;
+}
+
+.boxOut-content-right{
+    padding: 30px 50px;
+    background-color: #E4F4FD;
+    min-height: 705px;
+}
+
+.table-responsive {
+    border: none;
+}
+
+.judulTable{
+    background-color: #95a5a6;
+    color: white;
+    font-size: 12px;
+}
+
+.judulTable > td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.edit-tableDan{
+    color: #4D4D4D;
+    font-size: 12px;
+    border: 1px solid #95a5a6;
+}
+
+.edit-tableDan td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.td-1{
+    width: 100px;
+    text-align: center;
+}
+
+.td-2{
+    width: 5px;
+    text-align: center;
+}
+
+.td-3{
+    min-width: 180px;
+    max-height: 45px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.td-4{
+    width: 150px;
+    text-align: center;
+}
+
+.td-5{
+    width: 80px;
+}
+
+.td-6{
+    width: 100px;
+}
+
+.td-7{
+    width: 50px;
+    text-align: center;
+}
+
+.td-8{
+    width: 120px;
+    text-align: center;
+}
+
+.td-checkbox{
+    margin-top: 20px !important;
+}
+
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #1A64B8;
+    border: 0;
+    width: 100%;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 4px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+.btn-file-2{
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+.boxOut-button{
+    width: 70px;
+}
+
+
+
+
+.box-text{
+    font-size: 16px;
+    color: #4D4D4D;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box-profilPict{
+    margin-bottom: 40px;
+}
+
+
+
+
+.panel_toolbox-edit > li {
+    float: right;
+}
+
+.boxOut-graphBar{
+    padding-right: 10px;
+}
+
+.boxOut-graphArea{
+    padding-left: 10px;
+}
+
+.boxOut-graphArea > .x_panel{
+    padding-bottom: 1px;
+}
+
+#graph_bar rect:hover{
+    background-color: #35ffd8 !important;
+}
+
+.tile_count-edit .tile_stats_count::before {
+    margin-top: 0px;
+}
+
+.nav-md {
+    line-height: inherit;
+}
+
+.boxOut-graphBar{
+    padding-right: 0px;
+}
+
+.boxOut-graphArea{
+    padding-left: 0px;
+}
+
+
+
+
+.boxOut-left{
+    //border-right: 4px solid black;
+    padding-right: 30px;
+}
+
+.x_panel {
+    padding: 10px 0px;
+    border: none;
+    //border-bottom: 1px solid #E6E9ED;
+}
+
+
+
+
+.td-judul{
+    width: 150px;
+    min-width: 150px;
+    background-color: #95a5a6;
+    color: white;
+}
+
+.boxOut-tableBerat{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.edit-tableBerat td{
+    border: 1px solid #95a5a6;
+}
+
+.box-td-judul{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.td-col{
+    min-width: 130px;
+}
+
+.x_title, .x_title h2 {
+    color: #1A64B8;
+    overflow: visible;
+}
+
+
+
+.tdPrestasi-1{
+    min-width: 180px;
+    max-height: 45px;
+    overflow: hidden;
+}
+
+.tdPrestasi-2{
+    width: 100px;
+    text-align: center;
+}
+
+.tdPrestasi-3{
+    width: 140px;
+    text-align: center;
+}
+
+.tdPrestasi-4{
+    width: 150px;
+}
+
+
+.editModalLogin-header > .close {
+    color: #4D4D4D;
+}
+
+.box-modalJudulBerita {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #4D4D4D;
+}
+
+.boxOut-sertifikat img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.x_title {
+    padding-left: 0px !important;
+}
+
+
+.tinggiBerat-chart{
+    width:100%; 
+    height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-contentPage {
+        margin-top: 20px;
+    }
+
+    .boxTab {
+        padding: 30px 30px;
+    }
+
+    .boxOut-titleContent {
+        margin-bottom: 25px;
+    }
+
+    .boxOut-titleField {
+        font-size: 10px;
+    }
+
+    .box-text {
+        font-size: 14px;
+    }
+
+    .boxOut-profilePhoto {
+        width: 100px;
+        height: 133.3px;
+    }
+
+    .box-profilPict {
+        margin-bottom: 30px;
+    }
+
+    .boxOut-titleField {
+        margin-bottom: 0px;
+    }
+
+    .boxOut-contentPage {
+        padding: 30px 30px;
+    }
+
+    .boxOut-bottom {
+        margin-top: 0px;
+    }
+
+    .edit-tableBerat {
+        font-size: 12px;
+    }
+
+    .tdPrestasi-1{
+        min-width: 180px;
+    }
+
+    .tdPrestasi-2{
+        width: 50px;
+    }
+
+    .tdPrestasi-3{
+        width: 140px;
+    }
+
+    .tdPrestasi-4{
+        width: 120px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .boxOut-listField {
+        margin-bottom: 10px;
+    }
+
+    .boxOut-left {
+        border-right: none;
+        padding-right: 0px;
+    }
+
+    .boxOut-right {
+        padding-left: 0px;
+        margin-top: 40px;
+        border-left: none;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    .boxOut-right{
+        margin-top: 20px;
+    }
+
+    .boxOut-bottom{
+        margin-top: 0px;
+    }
+
+    .boxOut-right{
+        padding-left: 0px;
+    }
+
+    .box-left{
+        padding-right: 0px;
+    }
+
+    .box-right{
+        padding-left: 0px;
+    }
+
+    .box-radio{
+        margin-top: 0px;
+    }
+
+    .boxOut-timeLeft-2{
+        padding-right: 0px;
+    }
+
+    .boxOut-timeMiddle-2{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .boxOut-timeRight-2{
+        padding-left: 0px;
+    }
+
+
+
+
+    .tile_count-edit .tile_stats_count::before {
+        height: 55px;
+        margin-top: 0px;
+    }
+
+    .tile_count-edit .tile_stats_count{
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .boxOut-profilePhoto{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
